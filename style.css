@@ -1,0 +1,160 @@
+/* GAPS */
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color:#808080;
+    padding: 60px 10%;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+section {
+    padding: 0 45px;
+}
+
+ul, dl, dt, dd {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 3px 0;
+}
+
+th, td {
+    padding: 0px 8px 3px 0px;
+}
+
+.job {
+    padding-right: 20%;
+}
+
+/* TEXT */
+
+.about {
+    text-align: justify;
+}
+
+p, .job {
+    font-size: 18px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+h2, dt, .job {   
+    text-align: center;
+}
+
+dd, .bold, .job {
+    font-weight: bold
+}
+
+dt, .text-normalize {
+    font-weight: normal;
+}
+
+/* LINK */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+/* COLORS */
+
+a, .blue, .job {
+    color : #0683cc;
+}
+
+.cyan {
+    color : #00ffff;
+}
+
+.bg-light-blue{
+    background-color:#ADD7E6;
+}
+
+.bg-blue {
+    background-color: #85b4ce;
+}
+
+.bg-dark-blue {
+    background-color: #003047;
+}
+
+/* LIST */
+
+dl {
+    padding: 0 20% 0 20%;
+    overflow: hidden;
+  }
+ 
+dt, dd {
+    float: left;
+}  
+
+dt {
+    width: 30%;
+}
+
+dd {
+    width: 70%;
+}
+
+.visible-list {
+    list-style: inside;
+}
+
+/* METER */
+
+meter {
+    width: 90%;
+    height: 20px;
+}
+  
+meter::-webkit-meter-optimum-value {
+    background:#0683cc;
+}
+  
+meter::-webkit-meter-bar {
+    border: 1px solid #003047;
+}
+
+/* MEDIA */
+
+@media(max-width:1560px)
+{
+    section {
+        padding: 0 15px;
+    }
+}
+
+@media(max-width:1200px)
+{
+
+    .job {
+        padding: 0;
+    }
+
+    .job-tel {
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    dl {
+        padding: 0;
+    }
+
+    dt, dd {
+        padding-bottom: 10px;
+    }
+}
+
